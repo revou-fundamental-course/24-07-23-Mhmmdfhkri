@@ -2,22 +2,35 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: 0px 35px;
+    padding: 0px 20px;
+}
+.container{
+    margin: 20px;
+    background-color: rgb(150, 171, 171);
+}
+
 .navbar{
     display: flex;
     width: 100%;
     height: 80px;
     justify-content: space-between;
     border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 
 }
 
 .navbar img{
-    width: 80px;
-    height: 60px;
+    margin-top: -30px;
+    width: 200px;
+    height: 150px;
 }
 
 .navbar table {
-    margin-top: 5px;
+    margin-top: 15px;
     height: 50px;
     border: 1px solid;
     border-collapse: collapse;
@@ -36,6 +49,238 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+}
+
+.title p{
+    margin-top: 20px;
 }
 
 /* title end */
+
+/* home-1 start  */
+
+.home {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.home .home-1 {
+    margin: 0px, 10px;
+    justify-content: flex-start;
+    display: flex;
+    width: 60%;
+    flex-direction: column ;
+  
+
+}
+
+.home .home-1 img{
+    width: 95%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+}
+
+.home .home-1 p.p{
+    margin-top: 20px;
+    font-style: italic;
+}
+.home .home-1 .profil-user{
+    margin-top: 20px;
+    width: 90%;
+}
+
+.home .home-1 .profil-user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.home-1 .profil-user {
+    display: flex;
+    width: 100%;
+}
+
+.profil-user .profile{
+    margin-top: 5px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+}
+
+.home .contact{
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .contact .contact-1{
+    /* background-color: antiquewhite; */
+    width: 90%;
+}
+
+.contact-1 h3{
+    font-size: 30px;
+}
+
+.contact-1 p{
+    margin-top: 20px;
+}
+
+.contact-1 form{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.contact-1 label{
+    margin-top: 20px;
+}
+.contact-1 input{
+    height: 30px;
+    width: 100%;
+}
+
+/* home-1 end  */
+
+.home-2 {
+    margin-top: 20px ;
+    width: 100%;
+    display: flex;
+}
+
+.home-2 .description{
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px ;
+    text-align: justify;
+}
+
+.home-2 .description p{
+    width: 90%;
+}
+.home-2 .description p.desc{
+    font-size: 20px;
+    font-style: bold;
+    font-weight: bold;
+}
+
+.home-2 .description ol{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.home-2 .description ol li{
+    margin-top: 10px;
+}
+
+
+.home-2 .steps{
+    width: 30%;
+}
+
+
+div.title-section-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: antiquewhite;
+}
+
+
+/* call us start */
+
+.callus{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.callus p, button{
+    margin-top: 20px;
+}
+
+.callus button{
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    color: #ffff;
+    background-color: rgb(39, 34, 34);
+}
+
+/* call us end */
+
+/* our package start */
+
+.package{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.package .package-1{
+
+    display: flex;
+    width: 30%;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.package-1 img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.package-1 .text{
+    margin-top: 14px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.package-1 .text p{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+
+/* our package end */
+
+
+
+
+/* footer start */
+
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+
+.footer img {
+    margin-bottom: -80px;
+    width: 200px;
+    height: 200px;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+/* footer end */
