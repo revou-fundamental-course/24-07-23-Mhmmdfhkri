@@ -20,13 +20,13 @@
         <table>
             <tr>
                 <td>
-                    <a href="#">Home</a>
+                    <a href="#bagian1">Home</a>
                 </td>
                 <td>
-                    <a href="#">Our Package</a>
+                    <a href="#bagian2">Our Package</a>
                 </td>
                 <td>
-                    <a href="#">Call Us</a>
+                    <a href="#bagian3">Call Us</a>
                 </td>
             </tr>
         </table>
@@ -36,7 +36,7 @@
 
     <!-- title start -->
 
-    <div class="title">
+    <div class="title" id="bagian1">
         <h2>
             Your Trusted Travel Agent's
         </h2>
@@ -51,10 +51,14 @@
 
     <div class="home">
         <div class="home-1">
-            <img src="foto/img.jpg" alt="foto">
+            <div id="slideshow">
+                <img class="slide" src="foto/foto-1.jpg" alt="Slide 1">
+                <img class="slide" src="foto/foto-2.jpg" alt="Slide 2">
+                <img class="slide" src="foto/foto-3.jpg" alt="Slide 3">
+              </div>              
             <p class="p">"Liburan Jadi Menyenangkan Bersama Travel Agentku"</p>
             <div class="profil-user">
-                <img src="foto/img.jpg" alt="">
+                <img src="foto/orang.webp" alt="">
                 <div class="profile">
                     <p>Florence Hughes</p>
                     <p>Ibu Rumah Tangga, 28</p>
@@ -68,24 +72,24 @@
                     Sales Akan Menghubungi Anda 1x24 jam setelah data kami terima.
                 </p>
 
-                <form>
-                    <label for="name">Your Name:</label><br>
-                    <input type="text"><br><br>
-                    <label for="email">Email Address:</label><br>
-                    <input type="email"><br><br>
-                    <label for="browser">What Are You Interested In:</label>
+                <form id="myForm">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
                     <br>
-                    <input list="browsers" name="browser" id="browser">
-                    <datalist id="browsers">
-                        <option value="Edge">
-                        <option value="Firefox">
-                        <option value="Chrome">
-                        <option value="Opera">
-                        <option value="Safari">
+                    <label for="email">Email Adress:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="interest">What Are You Interested In:</label>
+                    <input type="text" id="interest" name="interest" list="interestOptions" required>
+                    <datalist id="interestOptions">
+                      <option value="Adventure">
+                      <option value="Holiday">
+                      <option value="Snorkling">
                     </datalist>
-                    <br><br><br>
-                    <input type="submit">
-                </form>
+                    <br>
+                    <button type="submit">SENT</button>
+                  </form>
+                  
             </div>
         </div>
     </div>
@@ -119,48 +123,48 @@
 
     <!-- home-2 end -->
 
-    <div class="title-section-2">
+    <div class="title-section-2" id="bagian2">
         <h1>Our Package</h1>
     </div>
 
     <div class="package">
         <div class="package-1">
-            <img src="foto/img.jpg" alt="foto">
+            <img src="foto/foto-1.jpg" alt="foto">
             <div class="text">
                 <h4>Bali</h4>
                 <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik.</p>
             </div>
         </div>
         <div class="package-1">
-            <img src="foto/img.jpg" alt="foto">
+            <img src="foto/jepang.jpg" alt="foto">
             <div class="text">
                 <h4>Japan</h4>
                 <p>Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner menarik.</p>
             </div>
         </div>
         <div class="package-1">
-            <img src="foto/img.jpg" alt="foto">
+            <img src="foto/singapura.jpg" alt="foto">
             <div class="text">
                 <h4>Singapore</h4>
                 <p>This description support and extends the bullet point above</p>
             </div>
         </div>
         <div class="package-1">
-            <img src="foto/img.jpg" alt="foto">
+            <img src="foto/bandung.jpeg" alt="foto">
             <div class="text">
                 <h4>Bandung</h4>
                 <p>This description support and extends the bullet point above</p>
             </div>
         </div>
         <div class="package-1">
-            <img src="foto/img.jpg" alt="foto">
+            <img src="foto/surabaya.jpg" alt="foto">
             <div class="text">
                 <h4>Surabaya</h4>
                 <p>This description support and extends the bullet point above</p>
             </div>
         </div>
         <div class="package-1">
-            <img src="foto/img.jpg" alt="foto">
+            <img src="foto/foto-3.jpg" alt="foto">
             <div class="text">
                 <h4>Third Feature</h4>
                 <p>This description support and extends the bullet point above</p>
@@ -169,7 +173,7 @@
     </div>
 
 
-    <div class="callus">
+    <div class="callus" id="bagian3">
         <h3>Menjembatani jarak, mendorong pertumbuhan ekonomi, inovasi teknologi, konektivitas global, dan dampak
             positif.</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia expedita corporis provident dicta suscipit
@@ -187,5 +191,7 @@
 
 
 </body>
+
+<script src="js/main.js"></script>
 
 </html>
