@@ -11,6 +11,8 @@ body{
     background-color: rgb(150, 171, 171);
 }
 
+/* navbar start */
+
 .navbar{
     display: flex;
     width: 100%;
@@ -50,6 +52,8 @@ body{
     border: 2px solid #544c4c;
     padding: 10px;
 }
+
+/* navbar end */
 
 /* title start */
 .title {
@@ -181,6 +185,8 @@ body{
 
 /* home-1 end  */
 
+/* home-2 start */
+
 .home-2 {
     margin-top: 20px ;
     width: 100%;
@@ -229,6 +235,8 @@ div.title-section-2{
     background-color: rgb(88, 87, 87);
     color: #ffff;
 }
+
+/* home-2 end */
 
 
 /* call us start */
@@ -295,8 +303,9 @@ div.title-section-2{
     color: #a7a9be;
 }
 
-
 /* our package end */
+
+/* callus start */
 
 .callus{
     display: flex;
@@ -306,6 +315,7 @@ div.title-section-2{
     width: 100%;
     height:200px;
 }
+/* callus end */
 
 
 /* footer start */
@@ -329,8 +339,6 @@ div.title-section-2{
     color: #a7a9be;
 }
 /* footer end */
-
-
 
 /* responsive start */
 
